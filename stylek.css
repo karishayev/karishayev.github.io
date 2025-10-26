@@ -56,27 +56,44 @@ footer {
 .abouttext {
     
     margin-right: 50px;
-    margin-left: 550px;
+    margin-left: 500px;
     font-family: serif;
     font-size: 160%;
     text-align: center;
 }
 .aboutimg {
-    width: 470px;
+    width: 400px;
     height: auto;
     float:left;
-    margin-right: 15px;
+    margin-left: 100px;
     padding: 10px 20px;
     margin: 5px;
 }
-.services{
-   margin-top: 70px;
-    padding: 40px 20px;
+.serviceshead {
+    margin-top: 100px;
+    text-align: center;
+    padding: 80px 20px;
+    font-family: serif;
+    font-size: 160%;
     text-align: center;
 }
-.service{
-    border: 1px solid #eee;
-    padding: 20px;
-    margin: 10px 0;
-    border-radius: 6px;
+.services {
+    margin-top: 40px;
+    padding: 40px 20px;
+    text-align: center;
+    border: 3px solid #d66b6b;
+    border-radius: 5px;
+    display: flex;
+    gap: 30px; 
+    margin-right: 50px;
+    margin-left: 50px;
+
 }
+.service{
+    
+    padding: 20px;
+    margin-top: 10px;
+    width: 40%; /* trzy w jednym rzędzie */
+    box-sizing: border-box;
+}
+
