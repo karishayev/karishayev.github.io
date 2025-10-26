@@ -93,11 +93,32 @@ footer {
     
     padding: 20px;
     margin-top: 10px;
-    width: 40%; 
+    width: 40%; /* trzy w jednym rzędzie */
     box-sizing: border-box;
 }
 
 .blog{
+    margin-top: 40px;
+    padding: 40px 20px;
+    text-align: center;
+    border: 3px solid #d66b6b;
+    border-radius: 5px;
+    display: flex;
+    gap: 30px; 
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.gryheader{
+    margin-top: 100px;
+    text-align: center;
+    padding: 80px 20px;
+    font-family: serif;
+    font-size: 160%;
+    text-align: center;
+}
+
+.gry{
     margin-top: 40px;
     padding: 40px 20px;
     text-align: center;
