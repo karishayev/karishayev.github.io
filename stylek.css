@@ -20,10 +20,10 @@ nav ul li a { color: #fff; text-decoration: none; }
 }
 .hero h2 { font-size: 32px; margin-bottom: 20px; }
 
-.blog, .portfolio, .contact {
+ .portfolio, .contact {
     padding: 40px 20px;
 }
-.service, .blog article, .portfolio .project {
+.service,  .article, .portfolio .project {
     border: 1px solid #eee;
     padding: 20px;
     margin: 10px 0;
@@ -95,5 +95,17 @@ footer {
     margin-top: 10px;
     width: 40%; /* trzy w jednym rzędzie */
     box-sizing: border-box;
+}
+
+.blog{
+    margin-top: 40px;
+    padding: 40px 20px;
+    text-align: center;
+    border: 3px solid #d66b6b;
+    border-radius: 5px;
+    display: flex;
+    gap: 30px; 
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
