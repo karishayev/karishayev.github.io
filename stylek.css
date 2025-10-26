@@ -93,7 +93,7 @@ footer {
     
     padding: 20px;
     margin-top: 10px;
-    width: 40%; /* trzy w jednym rzędzie */
+    width: 40%; 
     box-sizing: border-box;
 }
 
@@ -108,4 +108,5 @@ footer {
     margin-right: 50px;
     margin-left: 50px;
 }
+
 
